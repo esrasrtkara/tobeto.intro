@@ -97,5 +97,48 @@ public class Main
                 break;
         }
 
+        //Primitive-Referance tip
+        //oop
+
+        int a = 5;
+        int b = a;
+        b+=1;
+        System.out.println(a);
+        System.out.println(b);
+
+        String[] names = {"Halit","Engin"};
+
+        // String[] names2 = names;
+        //Clone  aynı değere sahip başka adresli liste oluşturmak için kullanılır.
+        String[] names2 = names.clone();
+        // String[] names2 = Arrays.copyOf(names,names.length);
+        names2[0] = "Enes";
+
+        System.out.println(names[0]);
+        System.out.println(names2[0]);
+
+        //iterasyon
+        //index
+        for (int i = 0;i < names2.length; i++){
+            System.out.println(names2[i]);
+        }
+        //names2 içindeki her bir elemanı iterasyona uğrat
+        //her elemana name takma adını ver.
+        for (String name : names2){
+            System.out.println(name);
+        }
+
+        //OOP
+        //Product
+
+        //instance => örnek
+        Product product = new Product();
+        product.name = "Laptop";
+        product.price = 50;
+
+        Product product1 = new Product();
+        product1.name = "Mause";
+        product1.price =10;
+
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
