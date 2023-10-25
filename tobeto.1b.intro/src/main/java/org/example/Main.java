@@ -133,17 +133,17 @@ public class Main
 
         //instance => örnek
         Product product = new Product();
-        product.name = "Laptop";
-        product.price = 50;
+        product.setName("Laptop");
+        product.setPrice(50);
         product.discount(10);
         //Constructor => yapıcı method
         Product product1 = new Product("Mause",10);
         product1.discount(5);
 
-        System.out.println(product.price);
-        System.out.println(product1.price);
+        System.out.println(product.getPrice());
+        System.out.println(product1.getPrice());
 
-        //Method Overloading
+
 
 
     } /* Main metotunun scope bitişi */
