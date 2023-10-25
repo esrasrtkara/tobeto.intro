@@ -135,10 +135,16 @@ public class Main
         Product product = new Product();
         product.name = "Laptop";
         product.price = 50;
+        product.discount(10);
+        //Constructor => yapıcı method
+        Product product1 = new Product("Mause",10);
+        product1.discount(5);
 
-        Product product1 = new Product();
-        product1.name = "Mause";
-        product1.price =10;
+        System.out.println(product.price);
+        System.out.println(product1.price);
+
+        //Method Overloading
+
 
     } /* Main metotunun scope bitişi */
 } /* Main classının scope bitiş */
