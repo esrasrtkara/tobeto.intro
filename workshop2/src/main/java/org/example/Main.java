@@ -1,3 +1,14 @@
+/*
+Bir e-ticaret sitesi için aşağıdaki modelleri class haline getiriniz.
+Encapsulation uygulayınız ve constructorlar oluşturunuz.
+Bunları main dosyasında oluşturarak bir kaç örnek kullanım ekleyiniz.
+
+Modellerimiz:
+Category
+Product
+Order
+User
+*/
 package org.example;
 
 import org.example.models.Category;
