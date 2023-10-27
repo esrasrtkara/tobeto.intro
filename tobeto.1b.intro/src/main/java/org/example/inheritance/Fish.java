@@ -9,7 +9,7 @@ public class Fish extends Animals {
 
     @Override
     public void makeSound() {
-
+        System.out.println("flu flu");
     }
 
     @Override // ana classdaki bu methodu üzerine yaz.

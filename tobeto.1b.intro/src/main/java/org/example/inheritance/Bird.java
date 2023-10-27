@@ -8,6 +8,6 @@ public class Bird extends Animals {
 
     @Override
     public void makeSound() {
-
+        System.out.println("cik cik");
     }
 }
