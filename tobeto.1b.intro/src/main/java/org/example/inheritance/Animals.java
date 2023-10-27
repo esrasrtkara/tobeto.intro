@@ -1,5 +1,7 @@
 package org.example.inheritance;
 
+//somut işlemlerde barındırabilen soyutlama da yapabilen yapılardır
+//new leme yapılamaz
 public abstract class Animals {
 
     public abstract void makeSound();

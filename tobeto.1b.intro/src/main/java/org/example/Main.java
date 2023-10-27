@@ -161,6 +161,7 @@ public class Main
         Animals animal1 = new Dog();
         Animals animal2 = new Fish();
 
+
         //Casting
         ((Bird)animal0).fly();
         //((Bird)animal1).fly();
