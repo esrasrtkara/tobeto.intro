@@ -1,6 +1,10 @@
 package org.example.inheritance;
 
-public class Animals {
+public abstract class Animals {
+
+    public abstract void makeSound();
+
+
     public void eat(){
         System.out.println("Animal eating");
     }

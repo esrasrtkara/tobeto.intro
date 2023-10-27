@@ -5,4 +5,9 @@ public class Bird extends Animals {
     public void fly(){
 
     }
+
+    @Override
+    public void makeSound() {
+
+    }
 }

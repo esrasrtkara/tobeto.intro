@@ -1,4 +1,5 @@
 package org.example;
+import org.example.inheritance.Animals;
 import org.example.inheritance.Bird;
 import org.example.inheritance.Dog;
 import org.example.inheritance.Fish;
@@ -155,6 +156,16 @@ public class Main
         Fish fish = new Fish();
         fish.eat();
         // Polymorphism
+        // Çok çeşitlilik
+        Animals animal0 = new Bird();
+        Animals animal1 = new Dog();
+        Animals animal2 = new Fish();
+
+        //Casting
+        ((Bird)animal0).fly();
+        ((Bird)animal1).fly();
+        Bird bird1 = (Bird) animal0;
+
         // Abstraction - Interface
 
 

@@ -7,6 +7,11 @@ public class Fish extends Animals {
 
     }
 
+    @Override
+    public void makeSound() {
+
+    }
+
     @Override // ana classdaki bu methodu üzerine yaz.
     public void eat() {
         //super => Kalıtım aldığım class'ı ifade eder.
