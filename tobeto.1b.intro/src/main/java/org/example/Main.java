@@ -1,4 +1,8 @@
 package org.example;
+import org.example.inheritance.Bird;
+import org.example.inheritance.Dog;
+import org.example.inheritance.Fish;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -142,6 +146,16 @@ public class Main
 
         System.out.println(product.getPrice());
         System.out.println(product1.getPrice());
+
+        //Inheritance
+        Bird bird = new Bird();
+        bird.breathe();
+        Dog dog = new Dog();
+        dog.eat();
+        Fish fish = new Fish();
+        fish.eat();
+        // Polymorphism
+        // Abstraction - Interface
 
 
 
