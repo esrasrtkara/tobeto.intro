@@ -163,10 +163,13 @@ public class Main
 
         //Casting
         ((Bird)animal0).fly();
-        ((Bird)animal1).fly();
+        //((Bird)animal1).fly();
         Bird bird1 = (Bird) animal0;
 
         // Abstraction - Interface
+        bird.makeSound();
+        dog.makeSound();
+        fish.makeSound();
 
 
 
