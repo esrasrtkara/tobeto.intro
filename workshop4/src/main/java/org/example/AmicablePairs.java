@@ -15,7 +15,6 @@ public class AmicablePairs {
             }
         }
     }
-
     public static int toplamBolenleriBul(int sayi) {
         int toplam = 0;
         for (int i = 1; i <= sayi / 2; i++) {
